@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 20px;
+    box-sizing: small - content-box;
+    font-family: 'Jost', sans-serif;
+    background: linear-gradient(rgba(63, 5, 50, 0.1),#1b010b) , url(wp9549960.WEBP);
+  }
+  
+  .container {
+    height: 535px;
+    width: 400px;
+    margin: 10px auto;
+    background-color: rgba(0,0,0,0.4); 
+    padding: 0px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .form-group {
+    margin-bottom: -10px;
+  }
+  
+  label {
+    display: block;
+    width: 87.8%;
+    height: 8px;
+    color: #fff;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 94%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+  button:hover {
+    background-color: rgb(156, 113, 113);
+    color: white;
+  }
+  
